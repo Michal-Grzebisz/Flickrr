@@ -1,0 +1,12 @@
+.AlbumContainer {
+    width: 100%;
+ 
+}
+
+.AlbumGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 40vh;
+    gap: 15px;
+    padding: 5rem 5rem 0 5rem;
+}

@@ -1,0 +1,61 @@
+.ImageDetails {
+    padding-top: 5rem;
+}
+.UserInfo {
+    display: flex;
+    align-items: center;
+    padding: 5vh 25vh 0 25vh;
+}
+
+.UserImage {
+    position: relative;
+
+    img {
+        border-radius: 50%;
+        height: 10vh;
+        width: 10vh;
+        padding: 3px;
+        border: var(--PrimaryColor) 2px solid;
+
+        }
+}   
+
+.UserName {
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+.ImageDetailsPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 2rem 5rem 0 5rem;
+    height: 50%;
+
+    img {
+        border-radius: 10px;
+        box-shadow: 0px 10px 13px -7px #000000, 0px 34px 15px 7px rgba(0,0,0,0);
+
+
+    }
+}
+
+.ImageDetailsPhotoInfo {
+    display: flex;
+    padding: 2rem 0 0 0;
+
+    span {
+        padding: 0 1rem 0 1rem;
+    }
+}
+
+.ImageTittle {
+    padding: 2rem 0 0 0;
+    font-size: 1.1rem;
+}
+.ImageDetailsPhotoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

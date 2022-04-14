@@ -1,0 +1,82 @@
+.AlbumsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 25vh;
+    gap: 15px;
+    width: 100%;
+    padding: 4rem 4rem 0 4rem;
+}
+
+.AlbumsItem {
+    box-shadow: 0px 20px 20px -20px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    position: relative;
+    background: var(--PrimaryColor);
+    text-decoration: none;
+}
+
+.AlbumsContainer {
+    display: flex;
+    width: 100%;
+    padding-top: 2rem;
+
+}
+
+.AlbumsFormContainer {
+    border-right: 1px solid rgb(230, 230, 230);
+    color: white;
+
+}
+
+.AlbumsForm {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 4rem 0 6rem;
+
+    input {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        background-color: transparent;
+        border: none;
+        border: 1px solid var(--PrimaryColor);
+        outline: none;
+        border-radius: 5px;
+        padding: 0.3rem;
+
+        &::placeholder {
+            color: rgb(200, 200, 200);
+        }
+    }
+}
+
+.FormHeader {
+    background: var(--PrimaryColor);
+    padding: 0.5rem 0 0.5rem 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.AlbumsName {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   color: white;
+   font-size: 1.3rem;
+   font-family: var(--PrimaryFont);
+   border-radius: 5px;
+
+   
+
+   &:hover {
+    background: rgb(196, 59, 80);
+
+       span {
+           font-size: 1.6rem;
+           transform: rotate(10deg);
+
+       }
+   }
+}

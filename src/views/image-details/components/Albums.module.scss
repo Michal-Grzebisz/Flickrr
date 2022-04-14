@@ -1,0 +1,48 @@
+.AlbumsOptions {
+    padding: 0 0 0 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(0, -50px);
+
+}
+
+.Select {
+    // select {
+    //     appearance: none;
+    //     background-color: transparent;
+    //     border: none;
+    //     padding: 0 1em 0 0;
+    //     margin: 0;
+    //     width: 100%;
+    //     font-family: inherit;
+    //     font-size: inherit;
+    //     cursor: inherit;
+    //     line-height: inherit;
+    //     outline: none;
+
+
+    // }
+}
+
+.AlbumsButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    button {
+        background-color: transparent;
+        border: 2px solid var(--PrimaryColor);
+        border-radius: 15px;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        color: var(--PrimaryColor);
+
+        &:hover {
+            background-color: var(--PrimaryColor);
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
